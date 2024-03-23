@@ -17,7 +17,7 @@ event.preventDefault();
             
             const firstName = document.getElementById('first_name').value;
             localStorage.setItem('firstName', firstName); 
-            window.location.href = 'thankyou.html';
+            window.location.href = 'thank.html';
  }
 
 const firstName = localStorage.getItem('firstName');
