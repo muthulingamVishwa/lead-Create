@@ -14,6 +14,7 @@ function timestamp() {
      setInterval(timestamp, 500); 
 
 function capthcs(){
+document.querySelector('input[name="submit"]').classList.remove('hidden');
 
 
 }
