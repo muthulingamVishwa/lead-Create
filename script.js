@@ -13,3 +13,11 @@ document.querySelector('input[name="submit"]').classList.remove('hidden');
 
 
 }
+const urlParams = new URLSearchParams(window.location.search);
+        const firstName = urlParams.get('first_name');
+        
+        // Display the first name on the page
+        const firstNameElement = document.getElementById('first_name');
+        if (firstNameElement && firstName) {
+            firstNameElement.textContent = firstName;
+        }
