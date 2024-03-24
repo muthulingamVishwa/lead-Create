@@ -12,9 +12,7 @@ function capthcs(){
 document.querySelector('input[name="submit"]').classList.remove('hidden');
 
 }
- function submitForm(event) {
-event.preventDefault(); 
-            
+ function submitForm(event) {      
             const firstName = document.getElementById('first_name').value;
             localStorage.setItem('firstName', firstName); 
             window.location.href = 'thank.html';
