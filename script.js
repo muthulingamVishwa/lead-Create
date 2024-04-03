@@ -15,7 +15,7 @@ document.querySelector('input[name="submit"]').classList.remove('hidden');
  function submitForm(event) {      
             const firstName = document.getElementById('first_name').value;
             localStorage.setItem('firstName', firstName); 
-     if(firstName!=null){
+     if(firstName!=Guest){
             window.location.href = 'thank.html';
      }
  }
